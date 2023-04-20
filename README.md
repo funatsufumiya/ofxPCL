@@ -8,6 +8,11 @@ PointCloudLibrary for openFrameworks
 
 - if linux, you will need to modify `addon_config.mk` to specify include / lib files (planning to test them in the future)
 
+## Dependencies
+
+- Mac
+    - [ofxBoost](https://github.com/saccadic/ofxBoost)
+
 ## Usage
 
 ### Windows
@@ -21,6 +26,8 @@ PointCloudLibrary for openFrameworks
 - Modify your Visual Studio project to use `Visual Studio 2022 (v143)` Platform Toolset (and also openFrameworksLib project)
 
 ### Mac
+
+- Add ofxBoost into addons first.
 
 ```bash
 $ brew install pcl
