@@ -27,7 +27,7 @@ PointCloudLibrary for openFrameworks
 
 - Copy `3rdParty\Eigen\eigen3` as `ofxPCL\include\eigen3` from `C:\Program Files\PCL 1.13.0\`
 
-- Use ProjectGenerator to generate your project (include ofxPCL in addons)
+- Use ProjectGenerator to generate your project (include ofxPCL, ofxBoost in addons)
 
 - Modify your Visual Studio project to use `Visual Studio 2022 (v143)` Platform Toolset (and also openFrameworksLib project)
 
