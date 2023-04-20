@@ -24,6 +24,7 @@ for Mac
 
 ```bash
 $ brew install pcl
+$ cd /your/path/to/ofxPCL
 $ cp -r /opt/homebrew/Cellar/pcl/1.13.0_2/include include
 $ cp -r /opt/homebrew/Cellar/pcl/1.13.0_2/lib lib
 $ cp -r /opt/homebrew/Cellar/eigen/3.4.0_1/include/* include
