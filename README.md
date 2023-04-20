@@ -3,7 +3,7 @@
 PointCloudLibrary for openFrameworks
 
 - tested with openFrameworks v0.11.2 / PCL 1.13.0
-    - Visual Studio 2022 / Windows 11
+    - Visual Studio 2022 / Windows 11 (22H2)
     - Xcode 14.2 / macOS Ventura 13.2.1, M1 2020
 
 - if linux, you will need to modify `addon_config.mk` to specify include / lib files (planning to test them in the future)
