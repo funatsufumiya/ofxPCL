@@ -10,10 +10,14 @@ PointCloudLibrary for openFrameworks
 
 ## Dependencies
 
-- Mac
-    - [ofxBoost](https://github.com/saccadic/ofxBoost)
+- ofxBoost
+    - for example:
+        - mac boost v1.61: https://github.com/saccadic/ofxBoost
+        - win/mac boost v1.46: https://github.com/gameoverhack/ofxBoost
 
 ## Usage
+
+- Add ofxBoost into addons first.
 
 ### Windows
 
@@ -28,8 +32,6 @@ PointCloudLibrary for openFrameworks
 - Modify your Visual Studio project to use `Visual Studio 2022 (v143)` Platform Toolset (and also openFrameworksLib project)
 
 ### Mac
-
-- Add ofxBoost into addons first.
 
 ```bash
 $ brew install pcl
