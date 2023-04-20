@@ -9,6 +9,7 @@ common:
 
 vs:
     ADDON_INCLUDES += "./include/"
+    ADDON_INCLUDES += "./include/pcl-1.13/"
 
     ADDON_LIBS += "./lib/pcl_common.lib"
     ADDON_LIBS += "./lib/pcl_commond.lib"
@@ -91,3 +92,32 @@ vs:
     ADDON_DLLS_TO_COPY += "./bin/pcl_trackingd.dll"
     ADDON_DLLS_TO_COPY += "./bin/pcl_visualization.dll"
     ADDON_DLLS_TO_COPY += "./bin/pcl_visualizationd.dll"
+
+osx:
+    ADDON_INCLUDES += "./include/"
+    ADDON_INCLUDES += "./include/pcl-1.13/"
+    ADDON_INCLUDES += "./include/eigen3/"
+    
+    ADDON_LIBS += ./lib/libpcl_apps.dylib
+    ADDON_LIBS += ./lib/libpcl_common.dylib
+    ADDON_LIBS += ./lib/libpcl_features.dylib
+    ADDON_LIBS += ./lib/libpcl_filters.dylib
+    ADDON_LIBS += ./lib/libpcl_io.dylib
+    ADDON_LIBS += ./lib/libpcl_io_ply.dylib
+    ADDON_LIBS += ./lib/libpcl_kdtree.dylib
+    ADDON_LIBS += ./lib/libpcl_keypoints.dylib
+    ADDON_LIBS += ./lib/libpcl_ml.dylib
+    ADDON_LIBS += ./lib/libpcl_octree.dylib
+    ADDON_LIBS += ./lib/libpcl_outofcore.dylib
+    ADDON_LIBS += ./lib/libpcl_people.dylib
+    ADDON_LIBS += ./lib/libpcl_recognition.dylib
+    ADDON_LIBS += ./lib/libpcl_registration.dylib
+    ADDON_LIBS += ./lib/libpcl_sample_consensus.dylib
+    ADDON_LIBS += ./lib/libpcl_search.dylib
+    ADDON_LIBS += ./lib/libpcl_segmentation.dylib
+    ADDON_LIBS += ./lib/libpcl_simulation.dylib
+    ADDON_LIBS += ./lib/libpcl_simulation_io.dylib
+    ADDON_LIBS += ./lib/libpcl_stereo.dylib
+    ADDON_LIBS += ./lib/libpcl_surface.dylib
+    ADDON_LIBS += ./lib/libpcl_tracking.dylib
+    ADDON_LIBS += ./lib/libpcl_visualization.dylib
