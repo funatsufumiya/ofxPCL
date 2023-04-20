@@ -37,6 +37,6 @@ $ cp -r /opt/homebrew/Cellar/pcl/1.13.0_2/lib lib
 $ cp -r /opt/homebrew/Cellar/eigen/3.4.0_1/include/* include
 ```
 
-- Use ProjectGenerator to generate your project (include ofxPCL in addons)
+- Use ProjectGenerator to generate your project (include ofxPCL, ofxBoost in addons)
 
 - Modify your XCode project to use `C++14` (or more): `Build Settings > Apple Clang - Language - C++ > C++ Language Dialect` set to C++14
