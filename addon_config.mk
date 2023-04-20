@@ -94,7 +94,6 @@ vs:
     ADDON_DLLS_TO_COPY += "./bin/pcl_visualizationd.dll"
 
 osx:
-    ADDON_INCLUDES += "./include/"
     ADDON_INCLUDES += "./include/pcl-1.13/"
     ADDON_INCLUDES += "./include/eigen3/"
     
