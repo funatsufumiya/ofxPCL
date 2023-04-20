@@ -10,7 +10,7 @@ PointCloudLibrary for openFrameworks
 
 ## Usage
 
-for Windows:
+### Windows
 
 - Install PCL via AllInOne exe: https://github.com/PointCloudLibrary/pcl/releases/
 
@@ -20,7 +20,7 @@ for Windows:
 
 - Modify your Visual Studio project to use `Visual Studio 2022 (v143)` Platform Toolset (and also openFrameworksLib project)
 
-for Mac
+### Mac
 
 ```bash
 $ brew install pcl
