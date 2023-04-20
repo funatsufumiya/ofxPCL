@@ -8,8 +8,8 @@ meta:
 common:
 
 vs:
-    ADDON_INCLUDES += "./include/"
     ADDON_INCLUDES += "./include/pcl-1.13/"
+	ADDON_INCLUDES += "./include/eigen3/"
 
     ADDON_LIBS += "./lib/pcl_common.lib"
     ADDON_LIBS += "./lib/pcl_commond.lib"
