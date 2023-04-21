@@ -14,7 +14,6 @@ PointCloudLibrary for openFrameworks
     - for example:
         - mac boost v1.61: https://github.com/saccadic/ofxBoost
         - win/mac boost v1.43: https://github.com/diederickh/ofxBoost
-            - NOTE: you can copy boost libs from PCL AllInOne described below.
 
 ## Usage
 
